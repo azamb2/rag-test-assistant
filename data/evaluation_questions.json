@@ -1,0 +1,30 @@
+[
+    {
+        "question": "If I keep entering the wrong password, when will the system block me?",
+        "expected_requirement_id": "AUTH-003"
+    },
+    {
+        "question": "Once I get blocked from signing in, how long until I can try again?",
+        "expected_requirement_id": "AUTH-004"
+    },
+    {
+        "question": "Can I use a six character password?",
+        "expected_requirement_id": "AUTH-002"
+    },
+    {
+        "question": "I forgot my login credentials. Is there a way to recover access using my email?",
+        "expected_requirement_id": "AUTH-005"
+    },
+    {
+        "question": "When the payment goes through, what should the system create?",
+        "expected_requirement_id": "CHECKOUT-003"
+    },
+    {
+        "question": "What should the backend return when someone calls a protected endpoint without being logged in?",
+        "expected_requirement_id": "API-002"
+    },
+    {
+        "question": "What response should the API give when someone asks for something that isn't there?",
+        "expected_requirement_id": "API-003"
+    }
+]

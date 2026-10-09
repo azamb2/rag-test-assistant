@@ -1,0 +1,51 @@
+E-COMMERCE APPLICATION REQUIREMENTS
+
+Authentication Requirements
+
+AUTH-001:
+Users must authenticate using their email address and password.
+
+AUTH-002:
+Passwords must contain at least 8 characters.
+
+AUTH-003:
+A user account must be temporarily locked after 5 consecutive
+failed login attempts.
+
+AUTH-004:
+The account lockout period must last 30 minutes.
+
+AUTH-005:
+Users must be able to reset their password through a verified
+email address.
+
+
+Checkout Requirements
+
+CHECKOUT-001:
+Users must have at least one product in their cart before
+proceeding to checkout.
+
+CHECKOUT-002:
+The system must reject payment if the payment provider
+returns a failed transaction.
+
+CHECKOUT-003:
+A successful payment must create an order.
+
+CHECKOUT-004:
+Users must receive an order confirmation after successful
+payment.
+
+
+API Requirements
+
+API-001:
+All protected API endpoints must require authentication.
+
+API-002:
+Unauthorized API requests must return HTTP status code 401.
+
+API-003:
+Requests for resources that do not exist must return
+HTTP status code 404.
